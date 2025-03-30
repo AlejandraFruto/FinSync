@@ -1,95 +1,173 @@
+/* Default Header Styles */
 .header {
-    align-items: flex-start;
-    background-color: transparent;
-    display: inline-flex;
-    left: 0;
-    padding: 33px 133px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .header .nav-2 {
-    align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 0px 24px;
-    position: relative;
-    width: 1246px;
-  }
-  
-  .header .nav-3 {
     align-items: center;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 32px;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(245, 244, 240);
+    padding: 20px 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
   }
   
-  .header .header-logo-wrapper {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    position: relative;
+  .header, .navigation-2 div {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    font-weight: 500; /* Medium */
   }
   
-  .header .header-logo-2 {
-    position: relative !important;
-    width: 154px !important;
+  .nav-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
   
-  .header .div-33 {
-    background-color: var(--blue-green);
-    height: 66px;
-    position: relative;
-    width: 1px;
+  .navigation-2 {
+    display: flex;
+    gap: 20px;
   }
   
-  .header .navigation-2 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 27px;
-    padding: 7px 1px;
-    position: relative;
+  .button-8 {
+    padding: 15px 25px !important;
+    font-size: 16px !important;
   }
   
-  .header .home-2 {
-    color: #010725;
-    font-family: "DM Sans", Helvetica;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1.40px;
-    line-height: 16.0px;
-    margin-top: -1.00px;
-    position: relative;
-    text-decoration: underline;
-    white-space: nowrap;
-    width: fit-content;
+  /* Hide Mobile Menu by Default */
+  .mobile-menu {
+    display: none;
   }
   
-  .header .text-wrapper-54 {
-    color: #010725;
-    font-family: "DM Sans", Helvetica;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1.40px;
-    line-height: 16.0px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
+  /* ================== */
+  /* ✅ Responsive Design */
+  /* ================== */
+  
+  @media (max-width: 1024px) {
+    .header {
+      padding: 15px 30px;
+    }
+  
+    .navigation-2 {
+      gap: 15px;
+    }
+  
+    .button-8 {
+      font-size: 14px !important;
+    }
   }
   
-  .header .button-8 {
-    flex: 0 0 auto !important;
-    height: 56px !important;
-    padding: 30px 40px !important;
+  /* Small Screens (Mobile) */
+  @media (max-width: 768px) {
+    /* Hide desktop navigation */
+    .navigation-2,
+    .button-8 {
+      display: none;
+    }
+  
+    /* Show the hamburger menu */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    /* Default Mobile Menu (Hidden) */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white; /* Change this color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: right;
   }
   
-  .header .button-9 {
-    font-size: 20px !important;
-    line-height: 30px !important;
-    margin-bottom: -16.00px !important;
-    margin-top: -18.00px !important;
+  /* Show menu when it's open */
+  .mobile-menu.open {
+    display: flex;
+    background:  rgba(245, 244, 240); /* Change this to your desired color */
+    color:rgba(27, 27, 27); /* Change text color to contrast the background */
   }
   
+  
+    /* Show menu when it's open */
+    .mobile-menu.open {
+      display: flex;
+    }
+
+    .mobile-menu div {
+        padding: 5px 0; /* Adds space above and below each item */
+        margin: 3px 0; /* Extra spacing */
+        text-align: center; /* Centers text */
+        font-size: 16px; /* Adjust font size */
+      }
+  
+      /* Style for the TRY IT NOW button inside the mobile menu */
+    .mobile-menu-button {
+        background-color:rgba(77, 162, 169); /* Change this to your desired color */
+        color: white;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 15px; /* Adds space between menu items and button */
+        cursor: pointer;
+        text-align: center;
+        width: 100%;
+      }
+      
+      /* Add hover effect */
+      .mobile-menu-button:hover {
+        background-color:rgb(70, 153, 160);
+      }
+  
+  /* Hide hamburger menu on large screens */
+@media (min-width: 769px) {
+    .hamburger {
+      display: none !important; /* Force hide it */
+    }
+  
+    .mobile-menu {
+      display: none !important; /* Force hide it */
+    }
+  }
+  
+  /* Show hamburger only on small screens */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block !important; /* Force show it */
+      cursor: pointer;
+      z-index: 2000;
+    }
+  
+    .navigation-2,
+    .button-8 {
+      display: none !important; /* Hide desktop nav */
+    }
+  
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 20px;
+      background: rgba(245, 244, 240, 1); /* Background color */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      border-radius: 8px;
+      text-align: right;
+      width: 200px;
+    }
+  
+    /* Show menu when it's open */
+    .mobile-menu.open {
+      display: flex !important;
+    }
+  }
+  
+  
+}
