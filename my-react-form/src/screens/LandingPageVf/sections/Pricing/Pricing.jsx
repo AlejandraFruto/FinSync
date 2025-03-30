@@ -4,51 +4,102 @@ import "./style.css";
 
 export const Pricing = () => {
   return (
-    <div className="pricing-container">
-      <div className="header">
-        <h1>Pricing</h1>
-        <p>Choose the plan that best fits your business.</p>
-      </div>
-
-      <div className="divider"></div>
-
-      <div className="comparison-table">
-        <div className="table-header">
-          <div className="empty-cell"></div>
-          <div className="plan-title">Small business version</div>
-          <div className="plan-title">Medium business version</div>
+    <div className="pricing">
+      <div className="overlap">
+        <div className="div-wrapper">
+          <div className="text-wrapper-4">Medium business version</div>
         </div>
 
-        {[1, 2, 3, 4, 5, 6].map((num) => (
-          <div key={num} className="feature-row">
-            <div className="feature-name">Feature {num}</div>
-            <div className="checkmark">✓</div>
-            <div className="checkmark">
-              {num > 4 ? <span className="x-mark">✗</span> : '✓'}
-            </div>
-          </div>
-        ))}
+        <div className="text-wrapper-5">Pricing</div>
+
+        <p className="p">Choose the plan that best fits your business.</p>
       </div>
 
-      <div className="divider light"></div>
+      <div className="div-5">
+        <div className="text-wrapper-6">Small business version</div>
+      </div>
 
-      <div className="pricing-section">
-        <h3>Cost per year</h3>
-        <div className="price-container">
-          <div className="price-box">
-            <span className="amount">$X</span>
-            <span className="period">/year</span>
-          </div>
-          <div className="price-box">
-            <span className="amount">$X</span>
-            <span className="period">/year</span>
-          </div>
+      <div className="overlap-group">
+        <div className="div-6">
+          <div className="text-wrapper-7">Feature 1</div>
+
+          <div className="div-7" />
+
+          <div className="div-8" />
         </div>
-      </div>
 
-      <div className="button-container">
-        <Button className="pay-button" text="PAY NOW" />
-        <Button className="pay-button" text="PAY NOW" />
+        <div className="div-9">
+          <div className="text-wrapper-8">Feature 2</div>
+
+          <div className="div-10" />
+
+          <div className="div-11" />
+        </div>
+
+        <div className="div-12">
+          <div className="text-wrapper-9">Feature 3</div>
+
+          <div className="div-10" />
+
+          <div className="div-11" />
+        </div>
+
+        <div className="div-13">
+          <div className="text-wrapper-10">Feature 4</div>
+
+          <div className="div-10" />
+
+          <div className="div-11" />
+        </div>
+
+        <div className="div-14">
+          <div className="text-wrapper-11">Feature 5</div>
+
+          <div className="div-10" />
+
+          <div className="div-15" />
+        </div>
+
+        <div className="div-16">
+          <div className="text-wrapper-12">Feature 6</div>
+
+          <div className="div-10" />
+
+          <div className="div-15" />
+        </div>
+
+        <div className="div-17">
+          <div className="text-wrapper-13">Cost per year</div>
+
+          <p className="x-year">
+            <span className="span">$X</span>
+
+            <span className="text-wrapper-14"> /year</span>
+          </p>
+
+          <p className="x-year-2">
+            <span className="span">$X</span>
+
+            <span className="text-wrapper-15">&nbsp;</span>
+
+            <span className="text-wrapper-14">/year</span>
+          </p>
+        </div>
+
+        <div className="div-18">
+          <Button
+            buttonClassName="button-instance"
+            className="button-1"
+            property1="default"
+            text="PAY NOW"
+          />
+          <Button
+            buttonClassName="button-instance"
+            className="button-1-instance"
+            property1="default"
+            text="PAY NOW"
+          />
+        </div>
       </div>
     </div>
   );
