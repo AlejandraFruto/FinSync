@@ -1,275 +1,204 @@
+/* Base styles */
 .footer {
-    align-items: flex-start;
-    background-color: #4da2a9de;
-    display: flex;
-    height: 693px;
-    left: 0;
-    padding: 56px 133px 32px;
-    position: absolute;
-    top: 0;
-    width: 1512px;
-  }
-  
-  .footer .div {
-    height: 596px;
-    position: relative;
-    width: 1246px;
-  }
-  
-  .footer .div-2 {
-    align-items: center;
-    display: flex;
+  background-color: #4da2a9de;
+  padding: 56px 5% 32px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: 1246px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Footer Top Section */
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icon {
+  height: 36px;
+  width: 36px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Middle Section */
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-menu {
+  width: 100%;
+}
+
+.menu-header {
+  border-bottom: 1px solid white;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.menu-title {
+  color: white;
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.menu-column {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.menu-item {
+  color: white;
+  font-family: "DM Sans", Helvetica;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #e0e0e0;
+}
+
+.menu-item.active {
+  font-weight: 700;
+}
+
+/* Footer CTA Section */
+.footer-cta {
+  background-color: var(--white-creamy);
+  border-radius: 40px;
+  padding: 40px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cta-content {
+  max-width: 424px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  color: var(--blue-green);
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  margin-bottom: 20px;
+}
+
+.cta-text {
+  color: var(--blue-green);
+  font-family: "DM Sans", Helvetica;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.cta-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-button {
+  background-color: var(--blue-green);
+  border: none;
+  border-radius: 80px;
+  color: var(--white-creamy);
+  cursor: pointer;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  padding: 20px 32px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #3a7d85;
+}
+
+/* Footer Bottom Section */
+.footer-divider {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.copyright {
+  color: white;
+  font-family: "DM Sans", Helvetica;
+  font-size: 16px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .footer-top {
+    flex-direction: row;
     justify-content: space-between;
-    left: 24px;
-    position: absolute;
-    top: 0;
-    width: 1198px;
-  }
-  
-  .footer .div-3 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    position: relative;
-  }
-  
-  .footer .header-logo {
-    position: relative !important;
-    width: 154px !important;
-  }
-  
-  .footer .socials {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 12px;
-    position: relative;
-  }
-  
-  .footer .img {
-    height: 36px;
-    position: relative;
-    width: 36px;
-  }
-  
-  .footer .menu {
-    align-items: flex-start;
-    display: flex;
-    gap: 45.05px;
-    left: 24px;
-    position: absolute;
-    top: 132px;
-    width: 509px;
-  }
-  
-  .footer .navigation {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    height: 277px;
-    padding: 0.01px 0.23px 34.01px;
-    position: relative;
-    width: 280px;
-  }
-  
-  .footer .menu-wrapper {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--white);
-    height: 56px;
-    margin-right: -0.47px;
-    position: relative;
-    width: 280px;
-  }
-  
-  .footer .text-wrapper {
-    color: var(--white);
-    font-family: "DM Sans", Helvetica;
-    font-size: 18px;
-    font-weight: 700;
-    height: 25px;
-    left: 0;
-    letter-spacing: 0.90px;
-    line-height: 26.0px;
-    position: absolute;
-    top: -1px;
-    white-space: nowrap;
-    width: 56px;
-  }
-  
-  .footer .nav {
-    align-items: flex-start;
-    display: flex;
-    flex: 0 0 auto;
-    justify-content: space-between;
-    position: relative;
-    width: 279px;
-  }
-  
-  .footer .menu-2 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 18px;
-    padding: 0px 1px;
-    position: relative;
-  }
-  
-  .footer .home {
-    color: var(--white);
-    font-family: "DM Sans", Helvetica;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1.40px;
-    line-height: 16.0px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .footer .text-wrapper-2 {
-    color: var(--white);
-    font-family: "DM Sans", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 1.40px;
-    line-height: 16.0px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .footer .menu-3 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 18px;
-    position: relative;
-  }
-  
-  .footer .tokens {
-    color: var(--white);
-    font-family: "DM Sans", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 1.40px;
-    line-height: 16.0px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .footer .download-our {
-    background-color: var(--white-creamy);
-    border-radius: 40px;
-    height: 284px;
-    left: 713px;
-    overflow: hidden;
-    position: absolute;
-    top: 128px;
-    width: 509px;
-  }
-  
-  .footer .group {
-    height: 196px;
-    left: 34px;
-    position: relative;
-    top: 44px;
-    width: 424px;
-  }
-  
-  .footer .download-our-2 {
-    color: var(--blue-green);
-    font-family: "DM Sans", Helvetica;
-    font-size: 18px;
-    font-weight: 700;
-    height: 26px;
-    left: 1px;
-    letter-spacing: 0.90px;
-    line-height: 26.0px;
-    position: absolute;
-    top: 0;
-    white-space: nowrap;
-  }
-  
-  .footer .lorem-ipsum-dolor {
-    color: var(--blue-green);
-    font-family: "DM Sans", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    height: 32px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 32.0px;
-    position: absolute;
-    top: 54px;
-    width: 420px;
-  }
-  
-  .footer .buttons {
-    align-items: flex-start;
-    display: inline-flex;
-    gap: 16px;
-    left: 0;
-    position: absolute;
-    top: 126px;
-  }
-  
-  .footer .app-store-wrapper {
-    all: unset;
     align-items: center;
-    background-color: var(--blue-green);
-    border-radius: 80px;
-    box-sizing: border-box;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 8px;
-    height: 70px;
-    justify-content: center;
-    padding: 27px 32px;
-    position: relative;
   }
   
-  .footer .app-store {
-    color: var(--white-creamy);
-    font-family: "DM Sans", Helvetica;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 1.60px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    position: relative;
-    text-align: center;
-    white-space: nowrap;
-    width: fit-content;
+  .logo-container {
+    margin-bottom: 0;
   }
   
-  .footer .div-4 {
-    background-color: #ffffff4c;
-    height: 1px;
-    left: 24px;
-    position: absolute;
-    top: 537px;
-    width: 1198px;
+  .footer-middle {
+    flex-direction: row;
+    align-items: flex-start;
   }
   
-  .footer .text-wrapper-3 {
-    color: var(--white);
-    font-family: "DM Sans", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    height: 26px;
-    left: 17px;
-    letter-spacing: 0;
-    line-height: 26px;
-    position: absolute;
-    text-align: center;
-    top: 568px;
-    white-space: nowrap;
+  .footer-menu {
+    width: 50%;
   }
   
+  .footer-cta {
+    width: 50%;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 56px 8% 32px;
+  }
+  
+  .footer-middle {
+    gap: 60px;
+  }
+}
