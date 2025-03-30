@@ -1,0 +1,424 @@
+.FOMO {
+    height: 1940px;
+    left: -158px;
+    position: absolute;
+    top: 3947px;
+    width: 1804px;
+  }
+  
+  .FOMO .overlap-3 {
+    border-radius: 40px;
+    height: 1940px;
+    position: relative;
+    width: 1786px;
+  }
+  
+  .FOMO .div-19 {
+    background-color: #010725;
+    border-radius: 40px;
+    height: 1940px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 1786px;
+  }
+  
+  .FOMO .overlap-group-2 {
+    height: 759px;
+    left: 428px;
+    position: absolute;
+    top: 318px;
+    width: 1188px;
+  }
+  
+  .FOMO .text-wrapper-21 {
+    color: #010725;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    height: 168px;
+    left: 0;
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+    position: absolute;
+    top: 0;
+    width: 967px;
+  }
+  
+  .FOMO .downfall-pana {
+    height: 619px;
+    left: 552px;
+    object-fit: cover;
+    position: absolute;
+    top: 140px;
+    width: 619px;
+  }
+  
+  .FOMO .rectangle {
+    background-color: #010725;
+    height: 160px;
+    left: 580px;
+    position: absolute;
+    top: 168px;
+    width: 147px;
+  }
+  
+  .FOMO .rectangle-2 {
+    background-color: #010725;
+    height: 55px;
+    left: 610px;
+    position: absolute;
+    top: 671px;
+    width: 147px;
+  }
+  
+  .FOMO .rectangle-3 {
+    background-color: #010725;
+    height: 51px;
+    left: 588px;
+    position: absolute;
+    top: 487px;
+    width: 100px;
+  }
+  
+  .FOMO .rectangle-4 {
+    background-color: #010725;
+    height: 67px;
+    left: 967px;
+    position: absolute;
+    top: 168px;
+    width: 147px;
+  }
+  
+  .FOMO .rectangle-5 {
+    background-color: #010725;
+    height: 160px;
+    left: 967px;
+    position: absolute;
+    top: 591px;
+    width: 147px;
+  }
+  
+  .FOMO .rectangle-6 {
+    background-color: #010725;
+    height: 49px;
+    left: 1016px;
+    position: absolute;
+    top: 542px;
+    width: 147px;
+  }
+  
+  .FOMO .rectangle-7 {
+    background-color: #010725;
+    height: 44px;
+    left: 1041px;
+    position: absolute;
+    top: 272px;
+    width: 147px;
+  }
+  
+  .FOMO .design-component-instance-node {
+    background-color: var(--light-green) !important;
+    display: flex !important;
+    height: 69px !important;
+    left: 731px !important;
+    position: absolute !important;
+    top: 1754px !important;
+    width: 324px !important;
+  }
+  
+  .FOMO .button-2 {
+    color: #010725 !important;
+    font-size: 20px !important;
+    line-height: 25px !important;
+    margin-bottom: -4.00px !important;
+    margin-top: -6.00px !important;
+  }
+  
+  .FOMO .financial {
+    color: transparent;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    height: 168px;
+    left: 523px;
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+    position: absolute;
+    top: 912px;
+    width: 378px;
+  }
+  
+  .FOMO .text-wrapper-22 {
+    color: #79d7bd;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+  }
+  
+  .FOMO .text-wrapper-23 {
+    color: #f5f4f0;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+  }
+  
+  .FOMO .errors-pile-up-risk {
+    color: transparent;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    height: 168px;
+    left: 498px;
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+    position: absolute;
+    top: 455px;
+    width: 378px;
+  }
+  
+  .FOMO .lost-hours-in-manual {
+    color: transparent;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    height: 168px;
+    left: 520px;
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+    position: absolute;
+    top: 684px;
+    width: 378px;
+  }
+  
+  .FOMO .every-day-without {
+    color: transparent;
+    font-family: "DM Sans", Helvetica;
+    font-size: 42px;
+    font-weight: 700;
+    height: 174px;
+    left: 413px;
+    letter-spacing: 0;
+    line-height: 55.0px;
+    position: absolute;
+    text-align: center;
+    top: 241px;
+    width: 1002px;
+  }
+  
+  .FOMO .text-wrapper-24 {
+    color: #79d7bd;
+  }
+  
+  .FOMO .text-wrapper-25 {
+    color: #f5f4f0;
+  }
+  
+  .FOMO .text-wrapper-26 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 42px;
+    font-weight: 700;
+    height: 83px;
+    left: 413px;
+    letter-spacing: 0;
+    line-height: 55.0px;
+    position: absolute;
+    text-align: center;
+    top: 1230px;
+    width: 1002px;
+  }
+  
+  .FOMO .don-t-let-manual {
+    color: transparent;
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    height: 112px;
+    left: 292px;
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+    position: absolute;
+    text-align: center;
+    top: 68px;
+    width: 1245px;
+  }
+  
+  .FOMO .text-wrapper-27 {
+    color: #f5f4f0;
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+  }
+  
+  .FOMO .text-wrapper-28 {
+    color: #010725;
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+  }
+  
+  .FOMO .text-wrapper-29 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 100px;
+    font-weight: 700;
+    height: 80px;
+    left: 353px;
+    letter-spacing: -1.00px;
+    line-height: 80.0px;
+    position: absolute;
+    text-align: center;
+    top: 499px;
+    white-space: nowrap;
+  }
+  
+  .FOMO .text-wrapper-30 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 100px;
+    font-weight: 700;
+    height: 80px;
+    left: 353px;
+    letter-spacing: -1.00px;
+    line-height: 80.0px;
+    position: absolute;
+    text-align: center;
+    top: 728px;
+    white-space: nowrap;
+  }
+  
+  .FOMO .text-wrapper-31 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 100px;
+    font-weight: 700;
+    height: 80px;
+    left: 353px;
+    letter-spacing: -1.00px;
+    line-height: 80.0px;
+    position: absolute;
+    text-align: center;
+    top: 956px;
+    white-space: nowrap;
+  }
+  
+  .FOMO .group-2 {
+    height: 266px;
+    left: 278px;
+    position: absolute;
+    top: 1421px;
+    width: 1290px;
+  }
+  
+  .FOMO .you-will-make {
+    color: transparent;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    height: 168px;
+    left: 900px;
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    width: 378px;
+  }
+  
+  .FOMO .text-wrapper-32 {
+    color: var(--white-creamy);
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    height: 168px;
+    left: 434px;
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    width: 378px;
+  }
+  
+  .FOMO .you-will-enjoy-error {
+    color: transparent;
+    font-family: var(--m3-headline-medium-font-family);
+    font-size: var(--m3-headline-medium-font-size);
+    font-style: var(--m3-headline-medium-font-style);
+    font-weight: var(--m3-headline-medium-font-weight);
+    height: 168px;
+    left: 0;
+    letter-spacing: var(--m3-headline-medium-letter-spacing);
+    line-height: var(--m3-headline-medium-line-height);
+    position: absolute;
+    text-align: center;
+    top: 98px;
+    width: 378px;
+  }
+  
+  .FOMO .text-wrapper-33 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 100px;
+    font-weight: 700;
+    height: 80px;
+    left: 139px;
+    letter-spacing: -1.00px;
+    line-height: 80.0px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .FOMO .text-wrapper-34 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 100px;
+    font-weight: 700;
+    height: 80px;
+    left: 562px;
+    letter-spacing: -1.00px;
+    line-height: 80.0px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .FOMO .text-wrapper-35 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 100px;
+    font-weight: 700;
+    height: 80px;
+    left: 1026px;
+    letter-spacing: -1.00px;
+    line-height: 80.0px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  

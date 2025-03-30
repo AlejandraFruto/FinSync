@@ -1,0 +1,78 @@
+.hook {
+    height: 620px;
+    left: 113px;
+    position: absolute;
+    top: 87px;
+    width: 1390px;
+  }
+  
+  .hook .overlap-9 {
+    height: 620px;
+    position: relative;
+    width: 1386px;
+  }
+  
+  .hook .text-wrapper-52 {
+    color: #010725;
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    height: 240px;
+    left: 0;
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+    position: absolute;
+    top: 154px;
+    width: 766px;
+  }
+  
+  .hook .text-wrapper-53 {
+    color: #010725;
+    font-family: var(--m3-headline-small-font-family);
+    font-size: var(--m3-headline-small-font-size);
+    font-style: var(--m3-headline-small-font-style);
+    font-weight: var(--m3-headline-small-font-weight);
+    height: 32px;
+    left: 0;
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    position: absolute;
+    top: 396px;
+    width: 658px;
+  }
+  
+  .hook .overlap-10 {
+    height: 620px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1386px;
+  }
+  
+  .hook .button-wrapper {
+    align-items: flex-start;
+    display: flex;
+    gap: 28px;
+    left: 0;
+    padding: 0px 381.52px 0px 0px;
+    position: absolute;
+    top: 476px;
+    width: 813px;
+  }
+  
+  .hook .button-7 {
+    display: flex !important;
+    height: 70px !important;
+    width: 253px !important;
+  }
+  
+  .hook .investment-data-bro {
+    height: 620px;
+    left: 766px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 620px;
+  }
+  

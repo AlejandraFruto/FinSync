@@ -1,0 +1,95 @@
+.header {
+    align-items: flex-start;
+    background-color: transparent;
+    display: inline-flex;
+    left: 0;
+    padding: 33px 133px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .header .nav-2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    position: relative;
+    width: 1246px;
+  }
+  
+  .header .nav-3 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 32px;
+    position: relative;
+  }
+  
+  .header .header-logo-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .header .header-logo-2 {
+    position: relative !important;
+    width: 154px !important;
+  }
+  
+  .header .div-33 {
+    background-color: var(--blue-green);
+    height: 66px;
+    position: relative;
+    width: 1px;
+  }
+  
+  .header .navigation-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 27px;
+    padding: 7px 1px;
+    position: relative;
+  }
+  
+  .header .home-2 {
+    color: #010725;
+    font-family: "DM Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.40px;
+    line-height: 16.0px;
+    margin-top: -1.00px;
+    position: relative;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .header .text-wrapper-54 {
+    color: #010725;
+    font-family: "DM Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.40px;
+    line-height: 16.0px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .header .button-8 {
+    flex: 0 0 auto !important;
+    height: 56px !important;
+    padding: 30px 40px !important;
+  }
+  
+  .header .button-9 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    margin-bottom: -16.00px !important;
+    margin-top: -18.00px !important;
+  }
+  

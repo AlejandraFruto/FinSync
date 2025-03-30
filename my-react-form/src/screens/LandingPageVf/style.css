@@ -1,0 +1,68 @@
+.landing-page-VF {
+    background-color: #f5f4f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .landing-page-VF .div-34 {
+    background-color: var(--white-creamy);
+    height: 8714px;
+    overflow: hidden;
+    position: relative;
+    width: 1512px;
+  }
+  
+  .landing-page-VF .overlap-11 {
+    height: 693px;
+    left: 0;
+    position: absolute;
+    top: 8021px;
+    width: 1512px;
+  }
+  
+  .landing-page-VF .finsync {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 16px;
+    left: 220px;
+    letter-spacing: 1.40px;
+    line-height: 16.0px;
+    position: absolute;
+    top: 68px;
+    white-space: nowrap;
+  }
+  
+  .landing-page-VF .allies {
+    height: 99px;
+    left: 147px;
+    position: absolute;
+    top: 814px;
+    width: 1246px;
+  }
+  
+  .landing-page-VF .overlap-12 {
+    height: 707px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1512px;
+  }
+  
+  .landing-page-VF .finsync-2 {
+    color: #2e5076;
+    font-family: "DM Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    height: 16px;
+    left: 218px;
+    letter-spacing: 1.40px;
+    line-height: 16.0px;
+    position: absolute;
+    top: 57px;
+    white-space: nowrap;
+  }
+  

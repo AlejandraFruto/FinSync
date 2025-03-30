@@ -1,0 +1,199 @@
+.services {
+    height: 1100px;
+    left: 143px;
+    position: absolute;
+    top: 1075px;
+    width: 1188px;
+  }
+  
+  .services .overlap-6 {
+    height: 1141px;
+    left: -97px;
+    position: relative;
+    width: 1377px;
+  }
+  
+  .services .overlap-7 {
+    height: 1141px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1377px;
+  }
+  
+  .services .group-4 {
+    height: 608px;
+    left: 671px;
+    position: absolute;
+    top: 30px;
+    width: 706px;
+  }
+  
+  .services .group-5 {
+    height: 609px;
+    left: 0;
+    position: absolute;
+    top: 533px;
+    width: 723px;
+  }
+  
+  .services .struggling-with {
+    color: transparent;
+    font-family: "DM Sans", Helvetica;
+    font-size: 66px;
+    font-weight: 700;
+    height: 80px;
+    left: 137px;
+    letter-spacing: -1.00px;
+    line-height: 80.0px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1104px;
+  }
+  
+  .services .text-wrapper-45 {
+    color: #79d7bd;
+    letter-spacing: -0.66px;
+  }
+  
+  .services .text-wrapper-46 {
+    color: #010725;
+    letter-spacing: -0.66px;
+  }
+  
+  .services .text-wrapper-47 {
+    color: #010725;
+    font-family: var(--desktop-body-font-family);
+    font-size: var(--desktop-body-font-size);
+    font-style: var(--desktop-body-font-style);
+    font-weight: var(--desktop-body-font-weight);
+    height: 32px;
+    left: 421px;
+    letter-spacing: var(--desktop-body-letter-spacing);
+    line-height: var(--desktop-body-line-height);
+    /*position: absolute;*/
+    text-align: center;
+    top: 80px;
+    width: 496px;
+  }
+  
+  .services .file-synchronization {
+    height: 470px;
+    left: 811px;
+    object-fit: cover;
+    position: absolute;
+    top: 102px;
+    width: 470px;
+  }
+  
+  .services .file-searching-amico {
+    height: 474px;
+    left: 136px;
+    object-fit: cover;
+    position: absolute;
+    top: 626px;
+    width: 474px;
+  }
+  
+  .services .text {
+    height: 259px;
+    left: 745px;
+    position: absolute;
+    top: 716px;
+    width: 479px;
+  }
+  
+  .services .overlap-group-6 {
+    height: 259px;
+    position: relative;
+    width: 475px;
+  }
+  
+  .services .text-wrapper-48 {
+    color: var(--white);
+    font-family: var(--desktop-h2-font-family);
+    font-size: var(--desktop-h2-font-size);
+    font-style: var(--desktop-h2-font-style);
+    font-weight: var(--desktop-h2-font-weight);
+    height: 111px;
+    left: 0;
+    letter-spacing: var(--desktop-h2-letter-spacing);
+    line-height: var(--desktop-h2-line-height);
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 475px;
+  }
+  
+  .services .automatically {
+    color: var(--white);
+    font-family: "DM Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 193px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 32.0px;
+    position: absolute;
+    text-align: right;
+    top: 66px;
+    width: 470px;
+  }
+  
+  .services .text-wrapper-49 {
+    color: #1a1a1a;
+    font-family: "DM Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 32.0px;
+  }
+  
+  .services .text-wrapper-50 {
+    font-weight: 700;
+  }
+  
+  .services .text-2 {
+    height: 243px;
+    left: 166px;
+    position: absolute;
+    top: 194px;
+    width: 479px;
+  }
+  
+  .services .overlap-8 {
+    height: 243px;
+    position: relative;
+    width: 475px;
+  }
+  
+  .services .text-wrapper-51 {
+    color: var(--white);
+    font-family: var(--desktop-h2-font-family);
+    font-size: var(--desktop-h2-font-size);
+    font-style: var(--desktop-h2-font-style);
+    font-weight: var(--desktop-h2-font-weight);
+    height: 111px;
+    left: 0;
+    letter-spacing: var(--desktop-h2-letter-spacing);
+    line-height: var(--desktop-h2-line-height);
+    position: absolute;
+    top: 0;
+    width: 475px;
+  }
+  
+  .services .record-your-daily {
+    color: var(--white);
+    font-family: "DM Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 161px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 32.0px;
+    position: absolute;
+    top: 82px;
+    width: 470px;
+  }
+  

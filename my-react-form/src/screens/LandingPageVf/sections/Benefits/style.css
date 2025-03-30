@@ -1,0 +1,483 @@
+.benefits {
+    height: 915px;
+    left: 182px;
+    position: absolute;
+    top: 2210px;
+    width: 1191px;
+  }
+  
+  .benefits .text-wrapper-40 {
+    color: #010725;
+    font-family: var(--desktop-h1-font-family);
+    font-size: var(--desktop-h1-font-size);
+    font-style: var(--desktop-h1-font-style);
+    font-weight: var(--desktop-h1-font-weight);
+    height: 80px;
+    left: 51px;
+    letter-spacing: var(--desktop-h1-letter-spacing);
+    line-height: var(--desktop-h1-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .benefits .group-3 {
+    height: 736px;
+    left: 0;
+    position: absolute;
+    top: 179px;
+    width: 1187px;
+  }
+  
+  .benefits .div-26 {
+    background-color: var(--light-green);
+    border-radius: 40px;
+    height: 295px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 325px;
+  }
+  
+  .benefits .text-wrapper-41 {
+    color: #010725;
+    font-family: "DM Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    height: 26px;
+    left: 23px;
+    letter-spacing: 0.90px;
+    line-height: 26.0px;
+    position: absolute;
+    top: 135px;
+    white-space: nowrap;
+  }
+  
+  .benefits .text-wrapper-42 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 78px;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    top: 168px;
+    width: 279px;
+  }
+  
+  .benefits .overlap-group-wrapper {
+    background-color: var(--blue-green);
+    border-radius: 20px;
+    height: 68px;
+    left: 23px;
+    overflow: hidden;
+    position: absolute;
+    top: 49px;
+    width: 68px;
+  }
+  
+  .benefits .overlap-group-3 {
+    background-image: url(https://c.animaapp.com/W9MUR0Mj/img/ellipse-1.svg);
+    background-size: 100% 100%;
+    height: 48px;
+    left: 10px;
+    position: relative;
+    top: 10px;
+    width: 48px;
+  }
+  
+  .benefits .line {
+    height: 18px;
+    left: 22px;
+    position: absolute;
+    top: 7px;
+    width: 7px;
+  }
+  
+  .benefits .line-2 {
+    height: 10px;
+    left: 13px;
+    position: absolute;
+    top: 22px;
+    width: 12px;
+  }
+  
+  .benefits .ellipse {
+    background-color: #ffffff66;
+    border-radius: 3.5px;
+    height: 7px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 7px;
+  }
+  
+  .benefits .div-27 {
+    background-color: var(--light-green);
+    border-radius: 40px;
+    height: 295px;
+    left: 862px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 325px;
+  }
+  
+  .benefits .div-28 {
+    background-color: var(--blue-green);
+    border-radius: 20px;
+    height: 68px;
+    left: 23px;
+    overflow: hidden;
+    position: absolute;
+    top: 48px;
+    width: 68px;
+  }
+  
+  .benefits .img-wrapper-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    left: 13px;
+    padding: 0px 6.1e-05px;
+    position: relative;
+    top: 13px;
+  }
+  
+  .benefits .img-3 {
+    height: 42px;
+    position: relative;
+    width: 42px;
+  }
+  
+  .benefits .div-29 {
+    background-color: var(--light-green);
+    border-radius: 40px;
+    height: 295px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 327px;
+    width: 325px;
+  }
+  
+  .benefits .div-30 {
+    background-color: var(--blue-green);
+    border-radius: 20px;
+    height: 68px;
+    left: 33px;
+    overflow: hidden;
+    position: absolute;
+    top: 51px;
+    width: 68px;
+  }
+  
+  .benefits .div-wrapper-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    left: 13px;
+    padding: 0px 1.82e-05px 0px 2e-05px;
+    position: relative;
+    top: 14px;
+  }
+  
+  .benefits .overlap-wrapper {
+    height: 41px;
+    opacity: 0.85;
+    position: relative;
+    width: 42px;
+  }
+  
+  .benefits .overlap-4 {
+    height: 41px;
+    position: relative;
+    width: 41px;
+  }
+  
+  .benefits .overlap-5 {
+    height: 21px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 41px;
+  }
+  
+  .benefits .vector {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 28px;
+  }
+  
+  .benefits .mask-group {
+    height: 21px;
+    left: 24px;
+    position: absolute;
+    top: 0;
+    width: 17px;
+  }
+  
+  .benefits .overlap-group-4 {
+    height: 21px;
+    left: 0;
+    position: absolute;
+    top: 19px;
+    width: 41px;
+  }
+  
+  .benefits .vector-2 {
+    height: 4px;
+    left: 13px;
+    position: absolute;
+    top: 9px;
+    width: 28px;
+  }
+  
+  .benefits .mask-group-2 {
+    height: 21px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 17px;
+  }
+  
+  .benefits .div-31 {
+    background-color: var(--light-green);
+    border-radius: 40px;
+    height: 295px;
+    left: 862px;
+    overflow: hidden;
+    position: absolute;
+    top: 329px;
+    width: 325px;
+  }
+  
+  .benefits .assure-security {
+    color: #010725;
+    font-family: "DM Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    height: 26px;
+    left: 24px;
+    letter-spacing: 0.90px;
+    line-height: 26.0px;
+    position: absolute;
+    top: 135px;
+    white-space: nowrap;
+  }
+  
+  .benefits .div-32 {
+    background-color: var(--blue-green);
+    border-radius: 13px;
+    height: 68px;
+    left: 29px;
+    overflow: hidden;
+    position: absolute;
+    top: 55px;
+    width: 68px;
+  }
+  
+  .benefits .img-wrapper-3 {
+    align-items: flex-start;
+    display: flex;
+    height: 48px;
+    left: 17px;
+    position: relative;
+    top: 10px;
+    width: 33px;
+  }
+  
+  .benefits .img-4 {
+    height: 52px;
+    margin-bottom: -4.00px;
+    position: relative;
+    width: 33px;
+  }
+  
+  .benefits .IOS {
+    background-color: var(--blue-green);
+    border-radius: 40px;
+    height: 622px;
+    left: 352px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 477px;
+  }
+  
+  .benefits .collaborate-with {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 26px;
+    left: 33px;
+    letter-spacing: 1.00px;
+    line-height: 26px;
+    position: absolute;
+    top: 43px;
+    white-space: nowrap;
+  }
+  
+  .benefits .text-wrapper-43 {
+    color: var(--white-creamy);
+    font-family: "DM Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 78px;
+    left: 33px;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    top: 78px;
+    width: 383px;
+  }
+  
+  .benefits .i-phones {
+    box-shadow: 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+    height: 583px;
+    left: 93px;
+    position: absolute;
+    top: 188px;
+    width: 285px;
+  }
+  
+  .benefits .overlap-group-5 {
+    height: 583px;
+    position: relative;
+    width: 286px;
+  }
+  
+  .benefits .body {
+    background-color: #1c1b2d;
+    border-radius: 44.04px;
+    height: 583px;
+    left: 2px;
+    position: absolute;
+    top: 0;
+    width: 281px;
+  }
+  
+  .benefits .body-2 {
+    background-color: #23213b;
+    border-radius: 40.25px;
+    height: 576px;
+    left: 4px;
+    position: relative;
+    top: 3px;
+    width: 273px;
+  }
+  
+  .benefits .buttons-2 {
+    height: 132px;
+    left: 0;
+    position: absolute;
+    top: 102px;
+    width: 286px;
+  }
+  
+  .benefits .button-3 {
+    background-color: #1c1b2d;
+    border-radius: 0.95px;
+    height: 41px;
+    left: 0;
+    position: absolute;
+    top: 39px;
+    width: 2px;
+  }
+  
+  .benefits .button-4 {
+    background-color: #1c1b2d;
+    border-radius: 0.95px;
+    height: 41px;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    width: 2px;
+  }
+  
+  .benefits .silence-button {
+    background-color: #1c1b2d;
+    border-radius: 0.95px;
+    height: 21px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+  
+  .benefits .power-button {
+    background-color: #1c1b2d;
+    border-radius: 0.95px;
+    height: 65px;
+    left: 283px;
+    position: absolute;
+    top: 66px;
+    width: 2px;
+  }
+  
+  .benefits .screen-replace-here {
+    background-color: #353447;
+    border-radius: 33.2px;
+    height: 560px;
+    left: 14px;
+    position: absolute;
+    top: 11px;
+    width: 258px;
+  }
+  
+  .benefits .pexels-fauxels {
+    height: 424px;
+    left: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 261px;
+  }
+  
+  .benefits .dinamy-island {
+    background-color: #1c1b2d;
+    border-radius: 32.6px;
+    height: 22px;
+    left: 105px;
+    position: absolute;
+    top: 18px;
+    width: 76px;
+  }
+  
+  .benefits .button-5 {
+    display: flex !important;
+    height: 66px !important;
+    left: 481px !important;
+    position: absolute !important;
+    top: 670px !important;
+    width: 220px !important;
+  }
+  
+  .benefits .button-6 {
+    font-size: 20px !important;
+    line-height: 25px !important;
+    margin-bottom: -5.50px !important;
+    margin-top: -7.50px !important;
+  }
+  
+  .benefits .text-wrapper-44 {
+    color: #010725;
+    font-family: var(--desktop-body-font-family);
+    font-size: var(--desktop-body-font-size);
+    font-style: var(--desktop-body-font-style);
+    font-weight: var(--desktop-body-font-weight);
+    height: 32px;
+    left: 293px;
+    letter-spacing: var(--desktop-body-letter-spacing);
+    line-height: var(--desktop-body-line-height);
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    width: 601px;
+  }
+  
