@@ -45,12 +45,10 @@
   }
   
   .landing-page-VF .overlap-12 {
-    height: 707px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1512px;
-  }
+    height: auto; /* Adjust height dynamically */
+    position: relative;
+    width: 100%;
+}
   
   .landing-page-VF .finsync-2 {
     color: #2e5076;

@@ -1,78 +1,71 @@
 .hook {
-    height: 620px;
-    left: 113px;
-    position: absolute;
-    top: 87px;
-    width: 1390px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  gap: 40px;
+  padding: 120px 50px 50px;
+  width: 100%;
+  max-width: 1200px;
+  min-height: auto; /* Allow content to expand */
+  margin: auto;
+  position: relative; /* Prevents overlap issues */
+}
+/* Ensure text takes space */
+.text-content {
+  flex: 1;
+  text-align: left;
+  max-width: 50%;
+}
+
+/* Make main text BOLD */
+.text-wrapper-52 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-family: "DM Sans", sans-serif; /* Ensure correct font */
+  font-weight: 700; /* BOLD */
+}
+
+/* Adjust subheading */
+.text-wrapper-53 {
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Button margin */
+.button-wrapper {
+  margin-top: 30px;
+}
+
+/* Ensure image stays on the right */
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Image styling */
+.investment-data-bro {
+  max-width: 100%;
+  height: auto;
+  min-width: 300px; /* Prevent shrinking */
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 1024px) {
+  .hook {
+      flex-direction: column; /* Stack text & image */
+      text-align: center;
+      padding: 120px 20px 50px; /* Adjust padding */
   }
-  
-  .hook .overlap-9 {
-    height: 620px;
-    position: relative;
-    width: 1386px;
+
+  .text-content {
+      max-width: 100%;
   }
-  
-  .hook .text-wrapper-52 {
-    color: #010725;
-    font-family: var(--desktop-h1-font-family);
-    font-size: var(--desktop-h1-font-size);
-    font-style: var(--desktop-h1-font-style);
-    font-weight: var(--desktop-h1-font-weight);
-    height: 240px;
-    left: 0;
-    letter-spacing: var(--desktop-h1-letter-spacing);
-    line-height: var(--desktop-h1-line-height);
-    position: absolute;
-    top: 154px;
-    width: 766px;
+
+  /* 🔹 Hide Image on Small Screens */
+  .image-container {
+      display: none;
   }
-  
-  .hook .text-wrapper-53 {
-    color: #010725;
-    font-family: var(--m3-headline-small-font-family);
-    font-size: var(--m3-headline-small-font-size);
-    font-style: var(--m3-headline-small-font-style);
-    font-weight: var(--m3-headline-small-font-weight);
-    height: 32px;
-    left: 0;
-    letter-spacing: var(--m3-headline-small-letter-spacing);
-    line-height: var(--m3-headline-small-line-height);
-    position: absolute;
-    top: 396px;
-    width: 658px;
-  }
-  
-  .hook .overlap-10 {
-    height: 620px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1386px;
-  }
-  
-  .hook .button-wrapper {
-    align-items: flex-start;
-    display: flex;
-    gap: 28px;
-    left: 0;
-    padding: 0px 381.52px 0px 0px;
-    position: absolute;
-    top: 476px;
-    width: 813px;
-  }
-  
-  .hook .button-7 {
-    display: flex !important;
-    height: 70px !important;
-    width: 253px !important;
-  }
-  
-  .hook .investment-data-bro {
-    height: 620px;
-    left: 766px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 620px;
-  }
-  
+}

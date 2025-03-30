@@ -26,4 +26,10 @@
     white-space: nowrap;
     width: fit-content;
   }
+
+  /* Hover effect */
+.button:hover {
+  background-color: rgb(65, 151, 159); /* New color on hover */
+  transform: scale(1.05); /* Slight scaling effect */
+}
   
