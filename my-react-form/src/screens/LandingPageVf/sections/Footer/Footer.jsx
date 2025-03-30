@@ -4,82 +4,71 @@ import "./style.css";
 
 export const Footer = () => {
   return (
-    <div className="footer">
-      <div className="div">
-        <div className="div-2">
-          <div className="div-3">
-            <div className="div-3">
-              <HeaderLogo2 className="header-logo" color="white" />
-            </div>
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-top">
+          <div className="logo-container">
+            <HeaderLogo2 className="header-logo" color="white" />
           </div>
-
           <div className="socials">
             <img
-              className="img"
-              alt="Insta"
+              className="social-icon"
+              alt="Instagram"
               src="https://c.animaapp.com/W9MUR0Mj/img/insta-1.svg"
             />
-
             <img
-              className="img"
+              className="social-icon"
               alt="Facebook"
               src="https://c.animaapp.com/W9MUR0Mj/img/facebook-1.svg"
             />
-
             <img
-              className="img"
-              alt="Linked in"
+              className="social-icon"
+              alt="LinkedIn"
               src="https://c.animaapp.com/W9MUR0Mj/img/linked-in-1.svg"
             />
           </div>
         </div>
 
-        <div className="menu">
-          <div className="navigation">
-            <div className="menu-wrapper">
-              <div className="text-wrapper">MENU</div>
+        <div className="footer-middle">
+          <div className="footer-menu">
+            <div className="menu-header">
+              <div className="menu-title">MENU</div>
             </div>
-
-            <div className="nav">
-              <div className="menu-2">
-                <div className="home">HOME</div>
-
-                <div className="text-wrapper-2">ABOUT US</div>
-
-                <div className="text-wrapper-2">PRICING</div>
+            <div className="menu-items">
+              <div className="menu-column">
+                <div className="menu-item active">HOME</div>
+                <div className="menu-item">ABOUT US</div>
+                <div className="menu-item">PRICING</div>
               </div>
+              <div className="menu-column">
+                <div className="menu-item">FAQS</div>
+                <div className="menu-item">BLOG</div>
+                <div className="menu-item">CONTACT US</div>
+              </div>
+            </div>
+          </div>
 
-              <div className="menu-3">
-                <div className="tokens">FAQS</div>
-
-                <div className="text-wrapper-2">BLOG</div>
-
-                <div className="text-wrapper-2">CONTACT US</div>
+          <div className="footer-cta">
+            <div className="cta-content">
+              <div className="cta-title">BE PART OF FINSYNC</div>
+              <p className="cta-text">
+                Focus on the business, leave us the numbers.
+              </p>
+              <div className="cta-button-container">
+                <button className="cta-button">
+                  <div className="button-text">TRY IT NOW</div>
+                </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="download-our">
-          <div className="group">
-            <div className="download-our-2">BE PART OF FINSYNC</div>
+        <div className="footer-divider" />
 
-            <p className="lorem-ipsum-dolor">
-              Focus on the business, leave us the numbers.
-            </p>
-
-            <div className="buttons">
-              <button className="app-store-wrapper">
-                <div className="app-store">TRY IT NOW</div>
-              </button>
-            </div>
-          </div>
+        <div className="footer-bottom">
+          <div className="copyright">All rights reserved</div>
         </div>
-
-        <div className="div-4" />
-
-        <div className="text-wrapper-3">All rights reserved</div>
       </div>
-    </div>
+    </footer>
   );
 };

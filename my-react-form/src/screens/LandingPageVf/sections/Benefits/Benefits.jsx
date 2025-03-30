@@ -4,168 +4,101 @@ import "./style.css";
 
 export const Benefits = () => {
   return (
-    <div className="benefits">
-      <p className="text-wrapper-40">More Time, More Clarity, More Growth</p>
+    <div className="benefits-container">
+      <div className="benefits">
+        <h2 className="benefits-title">More Time, More Clarity, More Growth</h2>
+        <p className="benefits-subtitle">
+          Don't worry anymore about your accountability, with FinSync you can:
+        </p>
 
-      <div className="group-3">
-        <div className="div-26">
-          <div className="text-wrapper-41">SAVE TIME</div>
-
-          <p className="text-wrapper-42">
-            We know that the accounting process is time-consuming, and with our
-            service, you can reduce this time.
-          </p>
-
-          <div className="overlap-group-wrapper">
-            <div className="overlap-group-3">
-              <img
-                className="line"
-                alt="Line"
-                src="https://c.animaapp.com/W9MUR0Mj/img/line-1.svg"
-              />
-
-              <img
-                className="line-2"
-                alt="Line"
-                src="https://c.animaapp.com/W9MUR0Mj/img/line-2.svg"
-              />
-
-              <div className="ellipse" />
+        <div className="benefits-grid">
+          {/* Benefit Card 1 */}
+          <div className="benefit-card">
+            <div className="benefit-icon">
+              <div className="icon-circle">
+                <img className="line" alt="Line" src="https://c.animaapp.com/W9MUR0Mj/img/line-1.svg" />
+                <img className="line-2" alt="Line" src="https://c.animaapp.com/W9MUR0Mj/img/line-2.svg" />
+                <div className="ellipse" />
+              </div>
             </div>
+            <h3 className="benefit-title">SAVE TIME</h3>
+            <p className="benefit-description">
+              We know that the accounting process is time-consuming, and with our
+              service, you can reduce this time.
+            </p>
           </div>
-        </div>
 
-        <div className="div-27">
-          <div className="div-28">
-            <div className="img-wrapper-2">
+          {/* Benefit Card 2 */}
+          <div className="benefit-card">
+            <div className="benefit-icon">
               <img
                 className="img-3"
                 alt="Img"
                 src="https://c.animaapp.com/W9MUR0Mj/img/60e4a1e7380756fecde7fb9c-icon-section-about-2-crypto-template-sv.svg"
               />
             </div>
+            <h3 className="benefit-title">KEEP TRACK</h3>
+            <p className="benefit-description">
+              You'll always have a trail of any accounting activity or record
+              made within your company.
+            </p>
           </div>
 
-          <div className="text-wrapper-41">KEEP TRACK</div>
-
-          <p className="text-wrapper-42">
-            You&#39;ll always have a trail of any accounting activity or record
-            made within your company.
-          </p>
-        </div>
-
-        <div className="div-29">
-          <div className="text-wrapper-41">ENSURE INSTANT ACCESS</div>
-
-          <p className="text-wrapper-42">
-            You can use our website at any time of day and anywhere to stay
-            informed or upload new records.
-          </p>
-
-          <div className="div-30">
-            <div className="div-wrapper-2">
-              <div className="overlap-wrapper">
-                <div className="overlap-4">
-                  <div className="overlap-5">
-                    <img
-                      className="vector"
-                      alt="Vector"
-                      src="https://c.animaapp.com/W9MUR0Mj/img/vector.svg"
-                    />
-
-                    <img
-                      className="mask-group"
-                      alt="Mask group"
-                      src="https://c.animaapp.com/W9MUR0Mj/img/mask-group-1@2x.png"
-                    />
-                  </div>
-
-                  <div className="overlap-group-4">
-                    <img
-                      className="vector-2"
-                      alt="Vector"
-                      src="https://c.animaapp.com/W9MUR0Mj/img/vector-1.svg"
-                    />
-
-                    <img
-                      className="mask-group-2"
-                      alt="Mask group"
-                      src="https://c.animaapp.com/W9MUR0Mj/img/mask-group-2@2x.png"
-                    />
-                  </div>
-                </div>
+          {/* Benefit Card 3 */}
+          <div className="benefit-card">
+            <div className="benefit-icon">
+              <div className="icon-complex">
+                <img className="vector" alt="Vector" src="https://c.animaapp.com/W9MUR0Mj/img/vector.svg" />
+                <img className="mask-group" alt="Mask group" src="https://c.animaapp.com/W9MUR0Mj/img/mask-group-1@2x.png" />
+                <img className="vector-2" alt="Vector" src="https://c.animaapp.com/W9MUR0Mj/img/vector-1.svg" />
+                <img className="mask-group-2" alt="Mask group" src="https://c.animaapp.com/W9MUR0Mj/img/mask-group-2@2x.png" />
               </div>
             </div>
+            <h3 className="benefit-title">ENSURE INSTANT ACCESS</h3>
+            <p className="benefit-description">
+              You can use our website at any time of day and anywhere to stay
+              informed or upload new records.
+            </p>
           </div>
-        </div>
 
-        <div className="div-31">
-          <div className="assure-security">ASSURE SECURITY</div>
-
-          <p className="text-wrapper-42">
-            Your financial data is securely stored, ensuring that your company’s
-            records are&nbsp;&nbsp;always protected.
-          </p>
-
-          <div className="div-32">
-            <div className="img-wrapper-3">
+          {/* Benefit Card 4 */}
+          <div className="benefit-card">
+            <div className="benefit-icon">
               <img
                 className="img-4"
                 alt="Img"
                 src="https://c.animaapp.com/W9MUR0Mj/img/60e4a1e7380756f05de7fb9f-icon-spec-1-3-crypto-template-svg.svg"
               />
             </div>
+            <h3 className="benefit-title">ASSURE SECURITY</h3>
+            <p className="benefit-description">
+              Your financial data is securely stored, ensuring that your company's
+              records are always protected.
+            </p>
           </div>
-        </div>
 
-        <div className="IOS">
-          <div className="collaborate-with">COLLABORATE WITH YOUR TEAM</div>
-
-          <p className="text-wrapper-43">
-            Multiple users can access and update records, making teamwork
-            seamless and ensuring everyone stays informed.
-          </p>
-
-          <div className="i-phones">
-            <div className="overlap-group-5">
-              <div className="body">
-                <div className="body-2" />
+          {/* Featured Benefit (iPhone) */}
+          <div className="featured-benefit">
+            <h3 className="featured-title">COLLABORATE WITH YOUR TEAM</h3>
+            <p className="featured-description">
+              Multiple users can access and update records, making teamwork
+              seamless and ensuring everyone stays informed.
+            </p>
+            <div className="iphone-container">
+              <div className="iphone-frame">
+                <img
+                  className="iphone-screen"
+                  alt="Pexels fauxels"
+                  src="https://c.animaapp.com/W9MUR0Mj/img/pexels-fauxels-3183150-1@2x.png"
+                />
               </div>
-
-              <div className="buttons-2">
-                <div className="button-3" />
-
-                <div className="button-4" />
-
-                <div className="silence-button" />
-
-                <div className="power-button" />
-              </div>
-
-              <div className="screen-replace-here" />
-
-              <img
-                className="pexels-fauxels"
-                alt="Pexels fauxels"
-                src="https://c.animaapp.com/W9MUR0Mj/img/pexels-fauxels-3183150-1@2x.png"
-              />
-
-              <div className="dinamy-island" />
             </div>
           </div>
         </div>
 
-        <Button
-          buttonClassName="button-6"
-          className="button-5"
-          property1="default"
-          text="TRY IT NOW"
-        />
+         <Button className="button-7" property1="default" text="TRY IT NOW"  link="https://finsync.lovable.app/auth" />
+       
       </div>
-
-      <p className="text-wrapper-44">
-        Don’t worry anymore about your accountability, with FinSync you can:
-      </p>
     </div>
   );
 };

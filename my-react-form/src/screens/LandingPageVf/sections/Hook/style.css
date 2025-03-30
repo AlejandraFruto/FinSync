@@ -10,6 +10,7 @@
   min-height: auto; /* Allow content to expand */
   margin: auto;
   position: relative; /* Prevents overlap issues */
+  z-index: 2; /* Ensure it's above overlapping elements */
 }
 /* Ensure text takes space */
 .text-content {
@@ -20,7 +21,7 @@
 
 /* Make main text BOLD */
 .text-wrapper-52 {
-  font-size: 60px;
+  font-size: 60px !important; 
   line-height: 1.2;
   font-family: "DM Sans", sans-serif; /* Ensure correct font */
   font-weight: 700; /* BOLD */
@@ -28,7 +29,7 @@
 
 /* Adjust subheading */
 .text-wrapper-53 {
-  font-size: 18px;
+  font-size: 18px !important; 
   margin-top: 20px;
   font-family: "DM Sans", sans-serif;
 }
@@ -39,7 +40,7 @@
 }
 
 /* Ensure image stays on the right */
-.image-container {
+.image-container-hook {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -65,7 +66,7 @@
   }
 
   /* 🔹 Hide Image on Small Screens */
-  .image-container {
-      display: none;
+  .image-container-hook {
+      display: none !important;
   }
 }

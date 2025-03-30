@@ -19,7 +19,7 @@ export const Hook = () => {
         </div>
       </div>
 
-      <div className="image-container">
+      <div className="image-container-hook">
         <img
           className="investment-data-bro"
           alt="Investment data bro"

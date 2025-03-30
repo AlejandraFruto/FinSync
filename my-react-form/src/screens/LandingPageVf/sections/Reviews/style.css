@@ -1,14 +1,16 @@
 .reviews {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 33px;
-    left: -449px;
-    position: absolute;
-    top: 3248px;
-    width: 100%;
-    max-width: 1512px;
-  }
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  position: relative; /* En lugar de absolute */
+  width: 100%;
+  max-width: 1350px;
+  min-height: 500px; /* Asegura espacio para el contenido */
+  margin-bottom: 50px; /* Da espacio antes del footer */
+  margin-top: 80px; /* Add space between sections */
+}
+
   
   .reviews .heading {
     height: 70px;
@@ -39,20 +41,19 @@
   .reviews .carousel-container {
     display: flex;
     transition: transform 0.5s ease;
+    width: 100%;
   }
   
   .reviews .review {
-    flex: 0 0 100%;
-    align-items: flex-start;
+    flex: 1; /* Make sure reviews expand evenly */
+    max-width: 500px; /* Limit max width */
+    min-width: 150px; /* Prevent excessive shrinking */
+    align-self: center;
+    padding: 65px 50px 66px;
+    margin: 0 auto;
     background-color: var(--dark-blue);
     border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    overflow: hidden;
-    padding: 65px 50px 66px;
-    width: 100%;
-    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow to separate cards */
   }
   
   .reviews .text-wrapper-37 {
@@ -141,6 +142,12 @@
     margin-top: 20px;
   }
   
+  .reviews .slide {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between reviews */
+    flex: 0 0 100%;
+  }
   .reviews .show-slide-of {
     width: 14px;
     height: 14px;

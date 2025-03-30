@@ -14,30 +14,26 @@ import "./style.css";
 export const LandingPageVf = () => {
   return (
     <div className="landing-page-VF">
-      <div className="div-34">
-        <div className="overlap-11">
-          <Footer />
-          <div className="finsync">FINSYNC</div>
+      <div className="content">
+        <div className="overlap-12">
+          <Hook />
+          <Header />
         </div>
-
-        <Pricing />
-        <ComoFunciona />
-        <HowToGetService />
-        <Fomo />
-        <Reviews />
-        <Benefits />
-        <Services />
         <img
           className="allies"
           alt="Allies"
           src="https://c.animaapp.com/W9MUR0Mj/img/allies.png"
         />
-
-        <div className="overlap-12">
-          <Hook />
-          <Header />
-        </div>
+        <Services />
+        <Benefits />
+        <Reviews />
+        <Fomo />
+        <HowToGetService />
+        <ComoFunciona />
+        <Pricing />
       </div>
+
+      <Footer />
     </div>
   );
 };

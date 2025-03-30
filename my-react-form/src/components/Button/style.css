@@ -1,7 +1,7 @@
 .button {
     all: unset;
     align-items: center;
-    background-color: var(--blue-green);
+    background-color: #4DA2A9;
     border-radius: 80px;
     box-sizing: border-box;
     display: inline-flex;

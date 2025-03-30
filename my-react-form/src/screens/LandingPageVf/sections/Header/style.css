@@ -108,7 +108,7 @@
   
       /* Style for the TRY IT NOW button inside the mobile menu */
     .mobile-menu-button {
-        background-color:rgba(77, 162, 169); /* Change this to your desired color */
+        background-color: #4DA2A9; /* Change this to your desired color */
         color: white;
         font-size: 16px;
         padding: 10px 20px;

@@ -1,66 +1,77 @@
+/*html, body {
+  width: 100%;
+  overflow-x: hidden; 
+} */
+
+
 .landing-page-VF {
-    background-color: #f5f4f0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .landing-page-VF .div-34 {
-    background-color: var(--white-creamy);
-    height: 8714px;
-    overflow: hidden;
-    position: relative;
-    width: 1512px;
-  }
-  
-  .landing-page-VF .overlap-11 {
-    height: 693px;
-    left: 0;
-    position: absolute;
-    top: 8021px;
-    width: 1512px;
-  }
-  
-  .landing-page-VF .finsync {
-    color: var(--white-creamy);
-    font-family: "DM Sans", Helvetica;
-    font-size: 20px;
-    font-weight: 500;
-    height: 16px;
-    left: 220px;
-    letter-spacing: 1.40px;
-    line-height: 16.0px;
-    position: absolute;
-    top: 68px;
-    white-space: nowrap;
-  }
-  
-  .landing-page-VF .allies {
-    height: 99px;
-    left: 147px;
-    position: absolute;
-    top: 814px;
-    width: 1246px;
-  }
-  
-  .landing-page-VF .overlap-12 {
-    height: auto; /* Adjust height dynamically */
-    position: relative;
-    width: 100%;
+  background-color: #f5f4f0;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  min-height: 100vh; /* Full screen height */
+  width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
-  
-  .landing-page-VF .finsync-2 {
-    color: #2e5076;
-    font-family: "DM Sans", Helvetica;
-    font-size: 14px;
-    font-weight: 500;
-    height: 16px;
-    left: 218px;
-    letter-spacing: 1.40px;
-    line-height: 16.0px;
-    position: absolute;
-    top: 57px;
-    white-space: nowrap;
-  }
-  
+
+
+/* Ensures the main content expands properly */
+.div-34 {
+  background-color: var(--white-creamy);
+  flex: 1; /* Allows content to grow and push footer down */
+  width: 100%;
+  max-width: 1512px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 120px; /* Prevents footer overlap */
+}
+
+/* Prevents horizontal scrolling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.finsync {
+  color: var(--white-creamy);
+  font-family: "DM Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.allies {
+  display: block;      /* Makes it a block element */
+  margin: 30px auto;   /* Centers it horizontally */
+  max-width: 100%;     /* Ensures it stays responsive */
+  text-align: center;  /* Helps centering in some cases */
+}
+
+.overlap-12 {
+  width: 100%;
+  position: relative;
+}
+
+.footer {
+  width: 100%;
+  background-color: #4da2a9de;
+  padding: 56px 5%;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative; /* Keeps it within normal document flow */
+}
+
+/* Adjust content inside footer */
+.footer .div {
+  width: 100%;
+  max-width: 1246px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
