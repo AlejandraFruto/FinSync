@@ -25,7 +25,7 @@ export const Services = () => {
             <img
               className="file-synchronization"
               alt="File synchronization"
-              src="https://c.animaapp.com/W9MUR0Mj/img/file-synchronization-bro-1@2x.png"
+              src="/images/sync.png"
             />
           </div>
         </div>
@@ -42,7 +42,7 @@ export const Services = () => {
           <div className="image-container"> <img
               className="file-searching-amico"
               alt="File searching amico"
-              src="https://c.animaapp.com/W9MUR0Mj/img/file-searching-amico-1@2x.png"
+              src="/images/search.png"
             />
           </div>
         </div>

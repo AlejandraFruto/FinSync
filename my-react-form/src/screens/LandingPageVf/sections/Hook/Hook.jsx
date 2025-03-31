@@ -23,7 +23,7 @@ export const Hook = () => {
         <img
           className="investment-data-bro"
           alt="Investment data bro"
-          src="https://c.animaapp.com/W9MUR0Mj/img/investment-data-bro--1--1.png"
+          src="/images/hook.png"
         />
       </div>
     </div>
