@@ -1,12 +1,15 @@
 /* General Styling */
 .FOMO {
+  max-width: 100%;  /* Prevents overflow issues */
+  margin: 0 auto; /* Centers it horizontally */
   font-family: "DM Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #010725;
   color: #f5f4f0;
-  padding: 60px 20px;
+  padding: 60px 20px; 
+  width: 100vw;  /* Full viewport width */
 }
 
 .fomo-container {
