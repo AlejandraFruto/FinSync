@@ -29,13 +29,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Change to project directory
+        run: cd my-react-form
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20 # Or your preferred Node.js version
           cache: "npm" # Or 'yarn', 'pnpm'
-      - name: Change to project directory
-        run: cd my-react-form
       - name: Install dependencies
         run: npm ci
         working-directory: ./my-react-form
