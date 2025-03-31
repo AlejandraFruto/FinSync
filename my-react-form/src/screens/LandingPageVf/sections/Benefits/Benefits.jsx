@@ -34,7 +34,7 @@ export const Benefits = () => {
               <img
                 className="img-3"
                 alt="Img"
-                src="https://c.animaapp.com/W9MUR0Mj/img/60e4a1e7380756fecde7fb9c-icon-section-about-2-crypto-template-sv.svg"
+                src="/images/track-benefit.png"
               />
             </div>
             <h3 className="benefit-title">KEEP TRACK</h3>
@@ -67,7 +67,7 @@ export const Benefits = () => {
               <img
                 className="img-4"
                 alt="Img"
-                src="https://c.animaapp.com/W9MUR0Mj/img/60e4a1e7380756f05de7fb9f-icon-spec-1-3-crypto-template-svg.svg"
+                src="/images/security-benefit.png"
               />
             </div>
             <h3 className="benefit-title">ASSURE SECURITY</h3>
