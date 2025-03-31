@@ -1,74 +1,103 @@
 .how-to-get-service {
-    height: 425px;
-    left: -12px;
-    position: absolute;
-    top: 5979px;
-    width: 1399px;
-  }
-  
+  font-family: "DM Sans", Helvetica;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.how-to-get-service .text-wrapper-17 {
+  color: #010725;
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 90%;
+}
+
+.how-to-get-service .overlap-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.how-to-get-service .sign-up-create-your {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #010725;
+  max-width: 80%;
+}
+
+.how-to-get-service .text-wrapper-19 {
+  font-weight: bold;
+}
+
+.how-to-get-service .text-wrapper-20 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+/* 📱 Responsividad para Tablets y Móviles */
+@media (max-width: 1024px) {
   .how-to-get-service .text-wrapper-17 {
-    color: #010725;
-    font-family: var(--desktop-h1-font-family);
-    font-size: var(--desktop-h1-font-size);
-    font-style: var(--desktop-h1-font-style);
-    font-weight: var(--desktop-h1-font-weight);
-    height: 80px;
-    left: 125px;
-    letter-spacing: var(--desktop-h1-letter-spacing);
-    line-height: var(--desktop-h1-line-height);
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 1244px;
+    font-size: 2rem;
   }
-  
-  .how-to-get-service .overlap-2 {
-    height: 278px;
-    left: 0;
-    position: absolute;
-    top: 147px;
-    width: 1393px;
-  }
-  
+
   .how-to-get-service .sign-up-create-your {
-    color: #010725;
-    font-family: "DM Sans", Helvetica;
-    font-size: 28px;
-    font-weight: 400;
-    height: 253px;
-    left: 287px;
-    letter-spacing: 0;
-    line-height: 40px;
-    position: absolute;
-    top: 25px;
-    width: 1106px;
+    font-size: 1.3rem;
+    max-width: 90%;
   }
-  
-  .how-to-get-service .text-wrapper-18 {
-    color: #010725;
-    font-family: "DM Sans", Helvetica;
-    font-size: 28px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 40px;
-  }
-  
-  .how-to-get-service .text-wrapper-19 {
-    font-weight: 700;
-  }
-  
+
   .how-to-get-service .text-wrapper-20 {
-    color: #010725;
-    font-family: "DM Sans", Helvetica;
-    font-size: 42px;
-    font-weight: 700;
-    height: 83px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 55.0px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 1002px;
+    font-size: 1.8rem;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .how-to-get-service {
+    padding: 40px 15px;
+    
+  }
+
+  .how-to-get-service .text-wrapper-17 {
+    font-size: 1.8rem;
+   
+  }
+
+  .how-to-get-service .sign-up-create-your {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .how-to-get-service .text-wrapper-20 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .how-to-get-service .text-wrapper-17 {
+    font-size: 1.5rem;
+  }
+
+  .how-to-get-service .sign-up-create-your {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .how-to-get-service .text-wrapper-20 {
+    font-size: 1.3rem;
+  }
+}

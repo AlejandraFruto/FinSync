@@ -46,7 +46,7 @@ export const Fomo = () => {
             <img
               className="fomo-image"
               alt="Downfall illustration"
-              src="https://c.animaapp.com/W9MUR0Mj/img/downfall-pana--1--1.png"
+              src="/images/downfall.png"
             />
         </div>
 
@@ -58,27 +58,27 @@ export const Fomo = () => {
           <div className="fomo-benefits">
             <div className="benefit">
               <span className="benefit-number">01</span>
-              <p className="benefit-text">
-                <span className="highlight">Informed decisions</span> with real-time financial insights.
+              <p className="benefit-text"> You will enjoy
+                <span className="highlight"> error-free </span>  accounting, avoiding miscalculations and unnecessary corrections.
               </p>
             </div>
             <div className="benefit">
               <span className="benefit-number">02</span>
               <p className="benefit-text">
-                Always know where your money is going without manual tracking.
+              You will always know where your money is going without manual tracking.
               </p>
             </div>
             <div className="benefit">
               <span className="benefit-number">03</span>
-              <p className="benefit-text">
-                <span className="highlight">Error-free</span> accounting, avoiding miscalculations.
+              <p className="benefit-text"> You will make
+                <span className="highlight"> informed decisions</span>  with real-time financial insights.
               </p>
             </div>
           </div>
 
           </div>
 
-          <Button className="fomo-button" text="GET STARTED TODAY" />
+          <Button className="fomo-button" text="GET STARTED TODAY" link="https://finsync.lovable.app/auth"  />
         </div>
         </div>
    

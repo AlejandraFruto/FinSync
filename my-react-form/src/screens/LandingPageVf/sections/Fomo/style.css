@@ -19,7 +19,7 @@
 .fomo-title {
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .highlight {
@@ -35,19 +35,22 @@
 
 /* Content Layout */
 .fomo-content {
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center !important;
+  gap: 0px;
   padding-bottom: 90px;
 }
 
 .fomo-text {
-  flex: 1;
+  flex: none;
+  margin-right: 0px !important;
   text-align: left;
   font-size: 1.2rem;
   line-height: 1.5;
+  max-width: 40%;
 }
 
 .fomo-warning {
@@ -64,7 +67,7 @@
 }
 
 .fomo-warning-text .highlight {
-  font-weight: bold;
+  
   font-size: 1.3rem;
   color: #79d7bd;
   display: block;
@@ -76,28 +79,30 @@
 }
 
 .fomo-image {
-  flex: 1;
-  max-width: 400px;
+  flex: none;
+  max-width: 200px;
   height: auto;
+  margin-left: 5px; /* Reduce left margin */
 }
 
 /* Benefits Section */
 .fomo-benefits {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  gap: 50px;
 }
 
 .fomo-second-part {
   margin-top: 60px; /* Adjust as needed */
   text-align: center;
+
 }
-
-
 
 .benefit {
   flex: 1;
-  text-align: center;
+  text-align: center !important;
 }
 
 .benefit-number {
@@ -105,11 +110,14 @@
   font-weight: bold;
   color: var(--white-creamy);
   min-width: 40px; /* Keeps numbers aligned */
-  text-align: right;
+  text-align: center !important;
 }
+
+
 
 .benefit-text {
   font-size: 1.2rem;
+  padding-top: 15px;
 }
 
 /* Button */
@@ -118,7 +126,7 @@
   padding: 15px 30px;
   font-size: 1.2rem;
   background-color: #79d7bd;
-  color: #010725;
+  color: #010725 !important;
   border: none;
   cursor: pointer;
 }

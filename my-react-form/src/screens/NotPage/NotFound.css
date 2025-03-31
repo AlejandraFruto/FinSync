@@ -1,0 +1,31 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #2e5076;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  .error-code {
+    font-size: 100px;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .error-description {
+    font-size: 18px;
+    color: #555;
+    max-width: 500px;
+    margin-top: 10px;
+  }
+  

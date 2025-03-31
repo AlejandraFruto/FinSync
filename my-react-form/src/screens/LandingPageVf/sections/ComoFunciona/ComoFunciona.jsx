@@ -9,11 +9,11 @@ export const ComoFunciona = () => {
           <div className="text-wrapper-16">How does it work?</div>
 
           <p className="take-a-picture-of">
-            Take a picture of the record you want to upload.
+            1. Take a picture of the record you want to upload.
             <br />
-            Expenses are automatically recorded in your account.
+            2. Expenses are automatically recorded in your account.
             <br />
-            Download the balance sheet.
+            3. Download the balance sheet.
           </p>
         </div>
       </div>
