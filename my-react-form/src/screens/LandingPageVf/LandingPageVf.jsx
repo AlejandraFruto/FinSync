@@ -22,7 +22,7 @@ export const LandingPageVf = () => {
         <img
           className="allies"
           alt="Allies"
-          src="https://c.animaapp.com/W9MUR0Mj/img/allies.png"
+          src="/images/allies.png"
         />
         <Services />
         <Benefits />
