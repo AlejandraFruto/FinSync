@@ -89,7 +89,7 @@ export const Benefits = () => {
                 <img
                   className="iphone-screen"
                   alt="Pexels fauxels"
-                  src="https://c.animaapp.com/W9MUR0Mj/img/pexels-fauxels-3183150-1@2x.png"
+                  src="/images/benefits.png"
                 />
               </div>
             </div>
