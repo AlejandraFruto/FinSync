@@ -9,6 +9,8 @@
   min-height: 500px; /* Asegura espacio para el contenido */
   margin-bottom: 50px; /* Da espacio antes del footer */
   margin-top: 80px; /* Add space between sections */
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
   
