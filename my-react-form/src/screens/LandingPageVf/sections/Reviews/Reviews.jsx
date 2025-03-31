@@ -6,37 +6,37 @@ const reviews = [
     text: "Our team struggled with keeping financial records updated across departments. Now, we collaborate in one place, and everyone has access to real-time data. It's a game-changer!",
     author: "JOHN CARTER",
     role: "ENTREPRENEUR",
-    image: "https://c.animaapp.com/W9MUR0Mj/img/60e4a1e738075635e8e7fbac-image-testimonial-2-crypto-template-jpg@2x.png"
+    image: "/images/user-man.png"
   },
   {
     text: "Before using this service, I spent hours manually recording transactions. Now, everything is automated, accurate, and available in real-time. It's like having a full-time accountant without the cost!",
     author: "LAURA M.",
     role: "SMALL BUSINESS OWNER",
-    image: "https://c.animaapp.com/W9MUR0Mj/img/60e4a1e73807562a93e7fbad-image-testimonial-3-crypto-template-jpg@2x.png"
+    image: "/images/user-woman-1.png"
   },
   {
     text: "Managing our growing business finances was a nightmare. This tool automatically categorizes expenses, making tax season stress-free. We always know where our money is going!",
     author: "REBECCA Y.",
     role: "STARTUP FOUNDER",
-    image: "https://c.animaapp.com/W9MUR0Mj/img/60e4a1e738075645cee7fbae-image-testimonial-1-crypto-template-jpg-1@2x.png"
+    image: "/images/user-woman-2.png"
   },
   {
     text: "Tracking expenses and managing invoices used to be overwhelming. This software simplified everything, and now I can focus on growing my business instead of drowning in paperwork.",
     author: "MICHAEL D.",
     role: "ENTREPRENEUR",
-    image: "https://c.animaapp.com/W9MUR0Mj/img/60e4a1e73807562a93e7fbad-image-testimonial-3-crypto-template-jpg@2x.png"
+    image: "/images/user-man.png"
   },
   {
     text: "I was skeptical at first, but this tool has completely transformed our budgeting process. Real-time insights have helped us cut unnecessary expenses and boost our savings!",
     author: "SOPHIA L.",
     role: "FINANCIAL ANALYST",
-    image: "https://c.animaapp.com/W9MUR0Mj/img/60e4a1e738075645cee7fbae-image-testimonial-1-crypto-template-jpg-1@2x.png"
+    image: "/images/user-woman-1.png"
   },
   {
     text: "As a freelancer, keeping track of my income and expenses was a mess. This app makes it so easy to generate reports, and tax time is no longer stressful!",
     author: "JASON K.",
     role: "FREELANCE DESIGNER",
-    image: "https://c.animaapp.com/W9MUR0Mj/img/60e4a1e738075635e8e7fbac-image-testimonial-2-crypto-template-jpg@2x.png"
+    image: "/images/user-man.png"
   }
 ];
 
