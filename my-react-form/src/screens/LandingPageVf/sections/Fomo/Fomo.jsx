@@ -78,7 +78,7 @@ export const Fomo = () => {
 
           </div>
 
-          <Button className="fomo-button" text="GET STARTED TODAY" link="https://finsync.lovable.app/auth"  />
+          <Button className="fomo-button" text="GET STARTED TODAY" link="https://app.fin-sync.me/auth"  />
         </div>
         </div>
    

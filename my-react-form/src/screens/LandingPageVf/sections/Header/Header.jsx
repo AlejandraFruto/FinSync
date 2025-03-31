@@ -44,7 +44,7 @@ export const Header = () => {
   <div className="text-wrapper-54">CONTACT US</div>
 
   {/* Add the button here */}
-  <a href="https://finsync.lovable.app/auth" className="mobile-menu-button" target="_blank" rel="noopener noreferrer">
+  <a href="https://app.fin-sync.me/auth" className="mobile-menu-button" target="_blank" rel="noopener noreferrer">
   TRY IT NOW
 </a>
 

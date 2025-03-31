@@ -47,8 +47,8 @@ export const Pricing = () => {
       </div>
 
       <div className="button-container">
-        <Button className="pay-button" text="PAY NOW" link="https://finsync.lovable.app/auth"/>
-        <Button className="pay-button" text="PAY NOW" link="https://finsync.lovable.app/auth"/>
+        <Button className="pay-button" text="PAY NOW" link="https://app.fin-sync.me/auth"/>
+        <Button className="pay-button" text="PAY NOW" link="https://app.fin-sync.me/auth"/>
       </div>
     </div>
   );
