@@ -33,11 +33,6 @@ jobs:
         run: npm ci
         working-directory: ./my-react-form
 
-      - name: Build
-        run: npm run build
-        env:
-          CI: false
-        working-directory: ./my-react-form
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -45,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./my-react-form/dist"
+          path: "./my-react-form"
 
   deploy:
     environment:
