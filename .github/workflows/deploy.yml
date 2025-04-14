@@ -33,6 +33,13 @@ jobs:
         run: npm ci
         working-directory: ./my-react-form
 
+      - name: Build
+        run: npm run build
+        env:
+          CI: false
+          working-directory: ./my-react-form
+
+
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
