@@ -23,7 +23,7 @@ export const Header = () => {
         </nav>
 
         {/* Call-to-action button (Visible on large screens) */}
-        <Button className="button-8" buttonClassName="button-9" text="TRY IT NOW" link="https://finsync.lovable.app/auth" />
+        <Button className="button-8" buttonClassName="button-9" text="TRY IT NOW" link="https://app.fin-sync.me/" />
 
 
         {/* Hamburger Icon (Visible on small screens) */}
@@ -40,11 +40,10 @@ export const Header = () => {
       {/* Mobile Navigation Menu (Hidden on large screens, toggled on small screens) */}
       <nav className={`mobile-menu ${menuOpen ? "open" : ""}`}>
   <div className="home-2">HOME</div>
-  <div className="text-wrapper-54">ABOUT US</div>
-  <div className="text-wrapper-54">CONTACT US</div>
+
 
   {/* Add the button here */}
-  <a href="https://app.fin-sync.me/auth" className="mobile-menu-button" target="_blank" rel="noopener noreferrer">
+  <a href="https://app.fin-sync.me/" className="mobile-menu-button" target="_blank" rel="noopener noreferrer">
   TRY IT NOW
 </a>
 

@@ -70,3 +70,9 @@
       display: none !important;
   }
 }
+
+/* ✅ Cursores para elementos clickeables */
+.button-7 {
+  cursor: pointer;
+}
+

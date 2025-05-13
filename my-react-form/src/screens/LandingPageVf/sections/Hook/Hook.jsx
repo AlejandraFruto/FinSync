@@ -15,7 +15,7 @@ export const Hook = () => {
         </p>
 
         <div className="button-wrapper">
-          <Button className="button-7" property1="default" text="TRY IT NOW"  link="https://app.fin-sync.me/auth" />
+          <Button className="button-7" property1="default" text="TRY IT NOW"  link="https://app.fin-sync.me/" />
         </div>
       </div>
 

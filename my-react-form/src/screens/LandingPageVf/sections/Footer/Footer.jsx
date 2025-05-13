@@ -55,7 +55,7 @@ export const Footer = () => {
                 Focus on the business, leave us the numbers.
               </p>
               <div className="cta-button-container">
-                <a href="https://app.fin-sync.me/auth" className="cta-button-link">
+                <a href="https://app.fin-sync.me/" className="cta-button-link">
                 <button className="cta-button">
                   <div className="button-text">TRY IT NOW</div>
                 </button>

@@ -184,6 +184,14 @@
       display: flex !important;
     }
   }
-  
-  
+
+
 }
+
+  /* Botones clickeables */
+.button-8, .mobile-menu-button, .hamburger, .navigation-2 div, .mobile-menu div {
+  cursor: pointer;
+}
+
+  
+  
