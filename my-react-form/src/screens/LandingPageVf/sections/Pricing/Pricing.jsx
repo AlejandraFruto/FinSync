@@ -45,12 +45,12 @@ export const Pricing = () => {
         <h3>Cost per year</h3>
         <div className="price-container">
           <div className="price-box">
-            <span className="amount">$X</span>
-            <span className="period">/year</span>
+            <span className="amount">$19.99</span>
+            <span className="period">/1000 docs</span>
           </div>
           <div className="price-box">
-            <span className="amount">$X</span>
-            <span className="period">/year</span>
+            <span className="amount">$49.99</span>
+            <span className="period">/5000 docs</span>
           </div>
         </div>
       </div>
