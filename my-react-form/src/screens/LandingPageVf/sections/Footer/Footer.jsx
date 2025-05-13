@@ -14,17 +14,17 @@ export const Footer = () => {
             <img
               className="social-icon"
               alt="Instagram"
-              src="https://c.animaapp.com/W9MUR0Mj/img/insta-1.svg"
+              src="https://i.ibb.co/Rk6x5SvC/insta.png"
             />
             <img
               className="social-icon"
               alt="Facebook"
-              src="https://c.animaapp.com/W9MUR0Mj/img/facebook-1.svg"
+              src="https://i.ibb.co/wNffd6T9/facebook.png"
             />
             <img
               className="social-icon"
               alt="LinkedIn"
-              src="https://c.animaapp.com/W9MUR0Mj/img/linked-in-1.svg"
+              src="https://i.ibb.co/XfsLLRGB/linked-in.png"
             />
           </div>
         </div>
