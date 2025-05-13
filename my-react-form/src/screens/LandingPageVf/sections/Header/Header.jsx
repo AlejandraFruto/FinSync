@@ -18,8 +18,6 @@ export const Header = () => {
         {/* Desktop Navigation (Visible on large screens) */}
         <nav className="navigation-2">
           <div className="home-2">HOME</div>
-          <div className="text-wrapper-54">ABOUT US</div>
-          <div className="text-wrapper-54">CONTACT US</div>
         </nav>
 
         {/* Call-to-action button (Visible on large screens) */}
