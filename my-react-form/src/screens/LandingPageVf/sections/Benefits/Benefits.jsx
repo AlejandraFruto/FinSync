@@ -16,9 +16,6 @@ export const Benefits = () => {
           <div className="benefit-card">
             <div className="benefit-icon">
               <div className="icon-circle">
-                <img className="line" alt="Line" src="https://c.animaapp.com/W9MUR0Mj/img/line-1.svg" />
-                <img className="line-2" alt="Line" src="https://c.animaapp.com/W9MUR0Mj/img/line-2.svg" />
-                <div className="ellipse" />
               </div>
             </div>
             <h3 className="benefit-title">SAVE TIME</h3>
@@ -48,10 +45,6 @@ export const Benefits = () => {
           <div className="benefit-card">
             <div className="benefit-icon">
               <div className="icon-complex">
-                <img className="vector" alt="Vector" src="https://c.animaapp.com/W9MUR0Mj/img/vector.svg" />
-                <img className="mask-group" alt="Mask group" src="https://c.animaapp.com/W9MUR0Mj/img/mask-group-1@2x.png" />
-                <img className="vector-2" alt="Vector" src="https://c.animaapp.com/W9MUR0Mj/img/vector-1.svg" />
-                <img className="mask-group-2" alt="Mask group" src="https://c.animaapp.com/W9MUR0Mj/img/mask-group-2@2x.png" />
               </div>
             </div>
             <h3 className="benefit-title">ENSURE INSTANT ACCESS</h3>

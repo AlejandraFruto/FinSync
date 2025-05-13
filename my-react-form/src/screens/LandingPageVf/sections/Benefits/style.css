@@ -87,7 +87,7 @@
   position: relative;
   width: 48px;
   height: 48px;
-  background-image: url(https://c.animaapp.com/W9MUR0Mj/img/ellipse-1.svg);
+  background-image: url(https://i.ibb.co/zVyPm1wY/clock.png);
   background-size: 100% 100%;
 }
 
@@ -121,6 +121,8 @@
   position: relative;
   width: 42px;
   height: 41px;
+  background-image: url(https://i.ibb.co/5hRCBRsD/arrows.png);
+  background-size: 100% 100%;
 }
 
 .vector, .vector-2 {
