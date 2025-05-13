@@ -3,6 +3,15 @@ import { Button } from "../../../../components/Button";
 import "./style.css";
 
 export const Pricing = () => {
+  const features = [
+    "Business management",
+    "Employee management",
+    "File uploading",
+    "CSV download",
+    "Latest AI technology",
+    "Improved categorization",
+  ];
+
   return (
     <div className="pricing-container">
       <div className="pricing-h">
@@ -15,16 +24,16 @@ export const Pricing = () => {
       <div className="comparison-table">
         <div className="table-pricing-h">
           <div className="empty-cell"></div>
-          <div className="plan-title">Small business version</div>
-          <div className="plan-title">Medium business version</div>
+          <div className="plan-title">Pro version</div>
+          <div className="plan-title">Base version</div>
         </div>
 
-        {[1, 2, 3, 4, 5, 6].map((num) => (
-          <div key={num} className="feature-row">
-            <div className="feature-name">Feature {num}</div>
+        {features.map((feature, index) => (
+          <div key={index} className="feature-row">
+            <div className="feature-name">{feature}</div>
             <div className="checkmark">✓</div>
             <div className="checkmark">
-              {num > 4 ? <span className="x-mark">✗</span> : '✓'}
+              {index >= 4 ? <span className="x-mark">✗</span> : "✓"}
             </div>
           </div>
         ))}
@@ -47,8 +56,8 @@ export const Pricing = () => {
       </div>
 
       <div className="button-container">
-        <Button className="pay-button" text="PAY NOW" link="https://app.fin-sync.me/auth"/>
-        <Button className="pay-button" text="PAY NOW" link="https://app.fin-sync.me/auth"/>
+        <Button className="pay-button" text="PAY NOW" link="https://app.fin-sync.me/auth" />
+        <Button className="pay-button" text="PAY NOW" link="https://app.fin-sync.me/auth" />
       </div>
     </div>
   );
